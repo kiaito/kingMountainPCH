@@ -1,0 +1,115 @@
+
+#logo { display: block;
+        margin: auto;}
+
+body {background-image:url(images/background.gif);
+	background-color: #d7bd69; 
+	color: #221811; 
+	font-family: verdana, arial, sans-serif;
+    align-items:center;}
+header {
+	background-repeat: no-repeat;
+	background-color: white;
+    height: 175px;
+width: 100%;
+}
+
+header img {height: 125px;
+}
+
+#wrapper { width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: whitesmoke;
+    min-width: 900px;
+    max-width: 1280px
+     }
+     #mainpic {width: 80%;
+          display: block;
+           margin: auto;}
+h2 { text-align: center;
+    color: #d7bd69;
+     }
+h1 { padding-top: 45px;
+padding-left: 220px;
+font-size: 3em;}
+
+nav {font-size: 1.2em;
+	padding-top: 10px;
+	text-align: center;
+	font-weight: bold; }
+nav a{text-decoration: none;}
+
+footer {background-color:white;
+		font-size: .60em;
+		font-style: italic;
+		text-align: center;
+		padding-bottom: 10px;
+		border-top: 2px;
+		}
+
+
+h4 {
+	background-color: #d2b48c;
+	font-size: 1.2em;
+	padding-left: 10px;
+	padding-bottom: 5px;
+}
+main {padding-left: 2em;
+ 	padding-right: 2em;
+ 	padding-bottom: 2em;
+ 	display: block;
+}
+
+img {padding-left: 10px;
+     padding-right: 10px;}
+
+a:visited {color:#79533c;}
+a:link {color: #79533c;}
+a:hover {color: purple;}
+.title {text-align: left;}
+.bpic {float: right;
+	width: 50%;
+	padding-left: 10px;
+}
+.bpicl {float: left;
+	width: 60%;
+	padding-right: 10px;
+}
+#text { text-align: center;}
+
+#list {text-align: center;}
+#list ul{ list-style-type: none; }
+#ctable { width: 90%;
+	margin-left: 50px;
+	margin-right: 50px;
+	overflow-x: auto;}
+
+#cform {width: 100%;
+background-color: #d7bd69;
+padding: 10px;
+overflow-x: auto;
+}
+form input { width: 70%; }
+#vid {margin-left:130px;}
+
+.row {
+	display: -ms-flexbox; /* IE10 */
+	display: flex;
+	-ms-flex-wrap: wrap; /* IE10 */
+	flex-wrap: wrap;
+	padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+	-ms-flex: 23%; /* IE10 */
+	flex: 23%;
+	max-width: 23%;
+	padding: 0 4px;
+}
+
+.column img {
+	margin-top: 8px;
+	vertical-align: middle;
+}
